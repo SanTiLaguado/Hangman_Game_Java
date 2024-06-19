@@ -21,6 +21,9 @@ public class Main {
         int intentos = palselecc.length();
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println(" ");
+        System.out.println("Bienvenido al juego del Ahorcado!");
+
         while (intentos > 0 && progreso.toString().contains("_")) {
             System.out.println(" ");
             System.out.println("Tienes " + intentos + " intentos");

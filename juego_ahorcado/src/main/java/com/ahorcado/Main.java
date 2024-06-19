@@ -25,7 +25,6 @@ public class Main {
             System.out.println(" ");
             System.out.println("Tienes " + intentos + " intentos");
             System.out.println("Adivina la palabra: " + progreso);
-            System.out.println(palselecc);
             System.out.print("Introduce una letra: ");
             char letra = scanner.next().charAt(0);
 
